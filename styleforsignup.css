@@ -12,19 +12,17 @@
 
 body {
     font-family: sans-serif;
-   
     background: var(--bgColor);
 }
 
 .container {
     display: flex;
-    padding: 100px 250px;
-    margin-left: 150px;
-    margin-bottom: 50px;    
+    justify-content: center;
+    margin: 50px;
 }
 
 .right-section {
-    width: 50%;
+    width: 30%;
 }
 
 .text {
@@ -36,7 +34,6 @@ body {
 .form-group {
     margin-bottom: 15px;
 }
-
 .control {
     padding: 8px 10px;
     font-size: 18px;
@@ -90,7 +87,6 @@ select {
 
     .container {
         flex-direction: column;
-        padding: 30px 50px;
     }
 
      .right-section {
